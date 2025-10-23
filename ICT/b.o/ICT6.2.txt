@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>ICT Browser Output</title>
+		<style>
+
+		a:link {
+		color:green;
+		}
+
+		a:visited {
+		color:red;
+		}
+
+		a:hover {
+		color:blue;
+		}
+
+		a:active {
+		color:yellow;
+		}
+
+		</style>
+	</head>
+	<body>
+		<h1>Pseudo-classes</h1>
+		<p>The links below are set to be green when not yet visited, red when visited, blue when hovered and yellow when active</p>
+		<a href="https://www.youtube.com" target="blank">Youtube</a>
+		<a href="https://scratch.mit.edu" target="blank">Scratch</a>
+		<a href="https://www.facebook.com" target="blank">facebook</a>
+	</body>
+</html>

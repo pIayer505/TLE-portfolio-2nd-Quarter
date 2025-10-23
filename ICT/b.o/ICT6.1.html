@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>ICT Browser Output</title>
+		<style>
+
+		#wh {
+		background-color:yellow;
+		width:200px;
+		height:100px;
+		}
+
+		#lh {
+		background-color:lightgreen;
+		line-height:30px;
+		}
+
+		#e {
+		background-color:orange;
+		max-width:700px;
+		min-width:100px;
+		max-height:800px;
+		min-height:200px;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>Visibility</h1>
+		<div style="visibility:visible;">This div style is set to visibility:visible; which is also the default.  Below this is another div with the visibility set to hidden.</div>
+		<div style="visibility:hidden;">
+		<p>This div style is set to visibility:hidden;</p>
+		<p>so you cannot see the element itself and only the space it takes.</p>
+		</div>
+		<table style="border-spacing:10px;border:2px solid black;">
+			<tr>
+				<td>first row</td>
+				<td>This is normal</td>
+			</tr>
+			<tr style="visibility:collapse;">
+				<td>second row</td>
+				<td>You cannot see this</td>
+			</tr>
+			<tr>
+				<td>third row</td>
+				<td>This is normal too.  The second row is what is set to visibility:collapse;</td>
+			</tr>
+		</table><br>
+		<h1>Other properties for dimensions</h1>
+		<div id="wh">width 200 px and height 100px
+		</div>
+		<div id="lh">The line height of this paragraph is 30px.  I made this one longer so that it will be multiple lines and you can see the spaces in between each line.
+		</div>
+		<div id="e">
+		max-width:700px;<br>
+		min-width:100px;<br>
+		max-height:800px;<br>
+		min-height:200px;<br>
+		</div>
+	</body>
+</html>

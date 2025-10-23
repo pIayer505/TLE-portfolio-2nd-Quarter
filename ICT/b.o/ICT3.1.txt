@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>ICT Browser Output</title>
+		<style>
+
+		li {
+		display:inline;
+		}
+
+		b {
+		display:block;
+		}
+
+		u {
+		display:list-item;
+		}
+
+		mark {
+		display:none;
+		}
+
+		em.a {
+		display:inherit;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>Difference of Inline and Block display</h1>
+		<p>This sentence is in a p tag.</p>
+		<p>This sentence is another p tag.</p>
+		<p>Each p tag starts on a new line because it is a block-level element</p>
+		<em>This sentence is in an em tag.</em>
+		<em>This sentence is in another em tag.</em>
+		<em>They stay in a single line even though it is in different em tags.</em>
+		<em>That is because em is an inline-level element.</em>
+		<h1>The display property</h1>
+		<p>You can change how elements are displayed through the display property in CSS.</p>
+		<h2>display:inline;</h2>
+		<ul>
+			<li>This is a list item.</li>
+			<li>Another list item.</li>
+			<li>List item is a block-level element.</li>
+			<li>But I used display:inline; so it appears as one line, and the bullet points are not visible.</li>
+		</ul>
+		<h2>display:block;</h2>
+		<b>This is in a b tag.</b><b>b tags are inline level elements.</b><b>However here, each appears in a new line, because of display:block;</b>
+		<h2>display:list-item;</h2>
+		<u>This is in a u tag.</u><u>u tag is inline level element.</u><u>But I used display:list-item;</u><u></u>
+		<h2>display:none;</h2>
+		<p>There is a mark tag here somewhere that you cannot see.  You have to look in the code.</p>
+		<mark>You can't see this text in the browser.</mark>
+		<h2>display:inherit;</h2>
+		<p><em class="a">This is an em in a p tag.</em><em class="a">This is another em in the  same p tag.</em><em class="a">All em here inherit the block display of the p tag.</em></p>
+	</body>
+</html>
