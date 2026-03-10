@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>a</title>
+	</head>
+	<body>
+		<script>
+			document.write("This text is displayed through document.write");
+		</script>
+	</body>
+</html>
