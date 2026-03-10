@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>ICT Browser Output</title>
+		<style>
+
+		li {
+		color:green;
+		}
+
+		#A {
+		font-family:Verdana;
+		font-size:20px;
+		}
+
+		u, i, h3 {
+		color:red;
+		}
+
+		p[align="center"] {
+		background-color:yellow;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>Element selector</h1>
+		<ul>
+			<li>This is a list item</li>
+			<li>This is a another list item</li>
+			<li>I selected all the list items through the element selector</li>
+		</ul>
+		<h1>Id selector</h1>
+		<p id="A">This is a paragraph tag selected through its id "A"</p>
+		<h1>Group selector</h1>
+		<u>This is u</u>
+		<i>This is i</i>
+		<h3>This is h3, all are red because I used group selector to select u, i, and h3 at the same time.</h3>
+		<h1>Attribute selector</h1>
+		<p align="center">This is a p tag with the align attribute set to center</p>
+		<p align="right">This is another p tag with align attribute set to right, but the yellow background does not apply as I specifically selected those p tags that are aligned to the center to be styled.</p>
+	</body>
+</html>

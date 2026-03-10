@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>ICT Browser Output</title>
+		<style>
+
+		#a {
+		background-color:yellow;
+		}
+		
+		#bahay {
+		color:brown;
+		font-size:20px;
+		}
+		
+		#sari {
+		color:green;
+		font-size:20px;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>Div Tag</h1>
+		<div id="a">
+			<p>Bahay kubo, kahit munti.</p>
+			<p>Ang halaman doon ay sari sari.</p>
+		</div>
+		<h1>Span Tag</h1>
+		<p><span id="bahay">Bahay kubo</span>, kahit munti</p>
+		<p>Ang halaman doon ay <span id="sari">sari-sari</span></p>
+	</body>
+</html>

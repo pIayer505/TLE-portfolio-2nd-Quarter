@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>ICT Browser Output</title>
+		<style>
+
+		.a {
+		font-family:Comic Sans Ms;
+		background-color:lightgreen;
+		}
+
+		.b {
+		font-family:Times New Roman;
+		background-color:yellow;
+		}
+
+		li.a {
+		background-color:orange;
+		}
+
+		h3, h4, em {
+		color:red;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>Class</h1>
+		<p>This paragraph element has no class and no style</p>
+		<p class="a">This one is class a and has this style.</p>
+		<p class="b">This is class b and I set it to a different style</p>
+		<p class="a">This paragraph has the same style as the other because it is also class a</p>
+		<p class="b">This paragraph element is also class b</p>
+		<h1>Using Class with element</h1>
+		<p>If I want to select a specific type of element belonging to a specific class, I can do that by using element.classname as the selector.</p>
+		<ul>
+			<li>this is a normal list item</li>
+			<li class="a">This list item is also class a, but it has different styling because I specified the background-color:orange; to only apply to the class a that are list items.  However, because I did not specify a font family for this one, it takes the font family from the general statement for all class a.</li>
+		</ul>
+		<h1>Grouping Selectors</h1>
+		<p>The following are different elements, which are h3, h4, and em.  However, since  I want the same style for all of them, which is having the font color red, I grouped the selectors.</p>
+		<h3>This is h3</h3>
+		<h4>This is h4</h4>
+		<em>This is em</em>
+	</body>
+</html>
