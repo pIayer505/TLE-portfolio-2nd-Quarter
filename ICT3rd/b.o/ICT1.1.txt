@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Browser Output</title>
+	</head>
+	<body>
+		<p>Font Properties</p>
+		<ul style="line-height:20px;">
+			<li>font-family
+				<ul>
+					<li style="font-family:Arial;">Arial</li>
+					<li style="font-family:Comic Sans Ms;">Comic Sans Ms</li>
+					<li style="font-family:Chiller;">Chiller</li>
+				</ul>
+			</li>
+			<li>font-size
+				<ul>
+					<li style="font-size:10px;">10px</li>
+					<li style="font-size:xx-large;">xx-large</li>
+					<li style="font-size:50%;">50%</li>
+				</ul>
+			</li>
+			<li>font-weight
+				<ul>
+					<li style="font-weight:100;">100</li>
+					<li style="font-weight:900;">900</li>
+					<li style="font-weight:bold;">bold</li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li style="font-style:normal;">normal</li>
+					<li style="font-style:italic;">italic</li>
+					<li style="font-style:oblique;">oblique</li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li style="font-variant:normal;">normal</li>
+					<li style="font-variant:small-caps;">small-caps</li>
+				</ul>
+			</li>
+		</ul>
+		<p>Text Properties</p>
+		<ul style="line-height:20px;">
+			<li>line-height
+				<ul>
+					<li style="line-height:100px;">100px;</li>
+					<li style="line-height:100pt;">100pt</li>
+					<li style="line-height:99%;">99%</li>
+				</ul>
+			</li>
+			<li>letter-spacing
+				<ul>
+					<li style="letter-spacing:100px;">100px</li>
+					<li style="letter-spacing:20px;">20px</li>
+					<li style="letter-spacing:-2px;">-2px</li>
+				</ul>
+			</li>
+			<li>text-align
+				<ul>
+					<li style="text-align:left;">this is "left"</li>
+					<li style="text-align:center;">this is "center"</li>
+					<li style="text-align:right;">this one is the "right" one</li>
+				</ul>
+			</li>
+			<li>text-indent
+				<ul>
+					<li style="text-indent:20%;">This one has an indent of 20%.</li>
+					<li style="text-indent:50px;">This one has an indent of 50 px.</li>
+					<li style="text-indent:-20px;">This one has an indent of -20 px.</li>
+				</ul>
+			</li>
+			<li>color
+				<ul>
+					<li style="color:violet;">violet</li>
+					<li style="color:purple;">purple</li>
+					<li style="color:#415c13">#415c13</li>
+				</ul>
+			</li>
+			<li>white-space
+				<ul style="line-height:30px;">
+					<li style="white-space:normal;">This one is "normal". I have to make the text quite long so that it will not fit in a single line and so that the effects of wrapping can be seen.
+This sentence is started on another line in the written code but the line break can only be seen depending on what value of white space was used.</li>
+					<li style="white-space:nowrap;">This one is "nowrap". I have to make the text quite long so that it will not fit in a single line and so that the effects of wrapping can be seen.
+This sentence is started on another line in the written code but the line break can only be seen depending on what value of white space was used.</li>
+					<li style="white-space:pre;">This one is "pre". I have to make the text quite long so that it will not fit in a single line and so that the effects of wrapping can be seen.
+This sentence is started on another line in the written code but the line break can only be seen depending on what value of white space was used.</li>
+					<li style="white-space:pre-wrap;">This one is "pre-wrap". I have to make the text quite long so that it will not fit in a single line and so that the effects of wrapping can be seen.
+This sentence is started on another line in the written code but the line break can only be seen depending on what value of white space was used.</li>
+					<li style="white-space:pre-line;">This one is "pre-line". I have to make the text quite long so that it will not fit in a single line and so that the effects of wrapping can be seen.
+This sentence is started on another line in the written code but the line break can only be seen depending on what value of white space was used.</li>
+				</ul>
+			</li>
+			<li>word-spacing
+				<ul>
+					<li style="word-spacing:20px;">This one is "20px"</li>
+					<li style="word-spacing:-6px;">This one is "-6px"</li>
+					<li style="word-spacing:50.5px;">This one is "50.5px"</li>
+				</ul>
+			</li>
+			<li>word-break
+				<ul>
+					<li style="word-break:normal; word-spacing:20px;">normal. I also made the sentences in this one long so that it will reach the end of the line and the effect of the word-break attribute will be seen.  I also increased the word spacing.</li>
+					<li style="word-break:break-all; word-spacing:20px">break-all.  I also made the sentences in this one long so that it will reach the end of the line and the effect of the word-break attribute will be seen.  I also increased the word spacing.</li>
+				</ul>
+			</li>
+		</ul>
+		<p><b>Text Decoration and Transformation</b></p>
+		<ul>
+			<li>text-decoration
+				<ul>
+					<li style="text-decoration:overline;">overline</li>
+					<li style="text-decoration:underline;">underline</li>
+					<li style="text-decoration:line-through;">line-through</li>
+				</ul>
+			</li>
+			<li>text-transform
+				<ul>
+					<li style="text-transform:capitalize;">capitalize</li>
+					<li style="text-transform:uppercase;">upPerCasE</li>
+					<li style="text-transform:lowercase;">LoWErCaSe</li>
+				</ul>
+			</li>
+			<li>text-shadow
+				<ul style="line-height:50px;">
+					<li style="text-shadow:20px 5px;">20px 5px</li>
+					<li style="text-shadow:5px 20px;">5px, 20px</li>
+					<li style="text-shadow:5px 20px blue;">5px 20px blue</li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>
